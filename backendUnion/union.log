@@ -1,0 +1,63 @@
+13.10.2021 09:39:45.267 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+13.10.2021 09:39:45.291 [main] INFO   o.w.d.DemoUnitApplication - Starting DemoUnitApplication using Java 15.0.2 on VIT3 with PID 30960 (C:\Users\Student\IdeaProjects\unionDemo\backendUnion\target\classes started by Student in C:\Users\Student\IdeaProjects\unionDemo\backendUnion)
+13.10.2021 09:39:45.363 [main] INFO   o.w.d.DemoUnitApplication - No active profile set, falling back to default profiles: default
+13.10.2021 09:39:51.024 [main] INFO   o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13.10.2021 09:39:51.595 [main] INFO   o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 483 ms. Found 1 JPA repository interfaces.
+13.10.2021 09:39:53.960 [main] INFO   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@20d33ea' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13.10.2021 09:39:53.969 [main] INFO   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13.10.2021 09:39:55.126 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13.10.2021 09:39:55.192 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13.10.2021 09:39:55.192 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+13.10.2021 09:39:55.193 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+13.10.2021 09:39:56.068 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+13.10.2021 09:39:56.068 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10320 ms
+13.10.2021 09:39:56.582 [main] INFO   c.z.h.HikariDataSource - HikariPool-1 - Starting...
+13.10.2021 09:39:59.205 [main] INFO   c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+13.10.2021 09:39:59.407 [main] INFO   o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13.10.2021 09:39:59.939 [main] INFO   o.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13.10.2021 09:40:01.927 [main] INFO   o.h.a.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13.10.2021 09:40:02.791 [main] INFO   o.h.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13.10.2021 09:40:06.922 [main] INFO   o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13.10.2021 09:40:06.952 [main] INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13.10.2021 09:40:08.687 [main] WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13.10.2021 09:40:11.938 [main] INFO   s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+13.10.2021 09:40:12.609 [main] INFO   o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@145ef9e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@f4c3e9, org.springframework.security.web.header.HeaderWriterFilter@579ee82, org.springframework.web.filter.CorsFilter@2e667e95, org.springframework.security.web.authentication.logout.LogoutFilter@7612f385, org.web.demounit.security.JwtTokenFilter@c7c07ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39b9dc35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1edf52e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@514b247b, org.springframework.security.web.session.SessionManagementFilter@5c28009f, org.springframework.security.web.access.ExceptionTranslationFilter@469bd719, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68dbe225]
+13.10.2021 09:40:13.673 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13.10.2021 09:40:13.833 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13.10.2021 09:40:13.837 [main] INFO   s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+13.10.2021 09:40:13.960 [main] INFO   s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+13.10.2021 09:40:14.079 [main] INFO   s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+13.10.2021 09:40:14.953 [main] INFO   o.w.d.DemoUnitApplication - Started DemoUnitApplication in 32.364 seconds (JVM running for 48.676)
+13.10.2021 19:23:49.864 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+13.10.2021 19:23:49.859 [main] INFO   o.w.d.DemoUnitApplication - Starting DemoUnitApplication using Java 15.0.2 on VIT3 with PID 17224 (C:\Users\Student\IdeaProjects\unionDemo\backendUnion\target\classes started by Student in C:\Users\Student\IdeaProjects\unionDemo\backendUnion)
+13.10.2021 19:23:49.882 [main] INFO   o.w.d.DemoUnitApplication - No active profile set, falling back to default profiles: default
+13.10.2021 19:23:53.540 [main] INFO   o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13.10.2021 19:23:53.829 [main] INFO   o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 214 ms. Found 1 JPA repository interfaces.
+13.10.2021 19:23:54.613 [main] INFO   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2753316c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13.10.2021 19:23:54.626 [main] INFO   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13.10.2021 19:23:55.535 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13.10.2021 19:23:55.560 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13.10.2021 19:23:55.562 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+13.10.2021 19:23:55.562 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+13.10.2021 19:23:55.987 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+13.10.2021 19:23:55.989 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5873 ms
+13.10.2021 19:23:56.318 [main] INFO   c.z.h.HikariDataSource - HikariPool-1 - Starting...
+13.10.2021 19:23:56.957 [main] INFO   c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+13.10.2021 19:23:57.116 [main] INFO   o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13.10.2021 19:23:57.330 [main] INFO   o.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13.10.2021 19:23:57.694 [main] INFO   o.h.a.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13.10.2021 19:23:58.000 [main] INFO   o.h.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13.10.2021 19:24:00.212 [main] INFO   o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13.10.2021 19:24:00.232 [main] INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13.10.2021 19:24:00.935 [main] WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13.10.2021 19:24:01.759 [main] INFO   s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+13.10.2021 19:24:02.212 [main] INFO   o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@396ec737, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cfd9b0a, org.springframework.security.web.header.HeaderWriterFilter@548c5127, org.springframework.web.filter.CorsFilter@35d53cd8, org.springframework.security.web.authentication.logout.LogoutFilter@7e69bf78, org.web.demounit.security.JwtTokenFilter@4d90d91f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33622388, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@752180c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bed61d2, org.springframework.security.web.session.SessionManagementFilter@255d4d7, org.springframework.security.web.access.ExceptionTranslationFilter@7524125c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e23af91]
+13.10.2021 19:24:02.806 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13.10.2021 19:24:02.837 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13.10.2021 19:24:02.840 [main] INFO   s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+13.10.2021 19:24:02.891 [main] INFO   s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+13.10.2021 19:24:02.958 [main] INFO   s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+13.10.2021 19:24:03.335 [main] INFO   o.w.d.DemoUnitApplication - Started DemoUnitApplication in 16.098 seconds (JVM running for 25.268)
+13.10.2021 19:39:20.693 [http-nio-8080-exec-1] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13.10.2021 19:39:20.694 [http-nio-8080-exec-1] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13.10.2021 19:39:20.706 [http-nio-8080-exec-1] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 12 ms
